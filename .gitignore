@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.sqlite
+
+# Media and static files
+/media/
+/static/
+
+# Local settings
+.env
+*.local_settings.py
+
+# macOS
+.DS_Store
+
+# Docker files
+*.pid
+docker-compose.override.yml
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Test coverage files
+.coverage
+*.cover
+htmlcov/
+*.lcov
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Elasticsearch files
+*.elastic*
+
+# Logs and other output
+logs/
+*.log
+
+# Miscellaneous
+*.bak
+*.orig
+*.save
+*.tmp
+*.old
+*.out
+
+# Python packages
+*.egg
+*.egg-info/
+.eggs/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg-info/
